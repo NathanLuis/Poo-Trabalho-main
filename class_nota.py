@@ -92,7 +92,7 @@ class Nota:
     def fromStringToSaveLoadMethod(string):
         try:
             attributes = string.strip().split(',')        
-            if len(attributes) ==5:
+            if len(attributes) == 5:
                 codigo_pedido = int(attributes[0])
                 cliente = str(attributes[1])
                 atendente = str(attributes[2])
